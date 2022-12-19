@@ -1,0 +1,16 @@
+{
+  "name": "backend-service",
+  "version": "1.0.0",
+  "description": "To support backend in managing companies and users",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Manikandan M S",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0"
+  }
+}

@@ -1,4 +1,4 @@
-
+const userModel=require('../Model/userSchema');
 
 exports.getUsers=async(req,res,next)=>{};
 

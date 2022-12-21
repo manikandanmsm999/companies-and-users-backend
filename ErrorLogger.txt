@@ -178,3 +178,177 @@ Error: Unable to deactivate user as no user is registered with the mentioned Use
 Error: Unable to deactivate user as no user is registered with the mentioned User Id : u12 
     at exports.deactivateUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:53:23)
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+ReferenceError: validator is not defined
+    at exports.createUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:50:9)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:47:12)
+TypeError: Cannot read properties of undefined (reading 'length')
+    at Object.exports.validateName (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Utilities\validator.js:3:13)
+    at exports.createUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:51:22)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:175:3)
+Error: Email entered is not on required format
+    at exports.createUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:97:23)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:47:12)
+Error: Email entered is not on required format
+    at exports.createUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:97:23)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:47:12)
+Error: Email entered is not on required format
+    at exports.createUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:97:23)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:47:12)
+Error: Date of birth should be less than todays current date
+    at exports.createUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:107:23)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:47:12)
+Error: Date of birth should be less than todays current date
+    at exports.createUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:107:23)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:47:12)
+Error: Date of birth should be less than todays current date
+    at exports.createUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:107:23)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:47:12)
+Error: User exists with this email id
+    at exports.createUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:89:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: First Name should be of length between 1 till 20
+    at exports.createUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:95:23)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:47:12)
+Error: Date of birth should be less than todays current date
+    at exports.createUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:115:23)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:47:12)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:199:9)
+    at invokeCallback (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: No company is available with the mentioned id
+    at exports.updateCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:146:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No company is available with the mentioned id
+    at exports.updateCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:146:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No company is available with the mentioned id
+    at exports.updateCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:147:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No company is available with the mentioned id
+    at exports.updateCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:147:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No company is available with the mentioned id
+    at exports.updateCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:147:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No company is available with the mentioned id
+    at exports.updateCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:147:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No company is available with the mentioned id
+    at exports.updateCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:147:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No company is available with the mentioned id
+    at exports.updateCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:147:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+ReferenceError: CompanyAddress is not defined
+    at exports.updateCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:120:48)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+ReferenceError: CompanyAddress is not defined
+    at exports.updateCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:120:48)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+TypeError: Cannot set properties of undefined (setting 'Latitude')
+    at exports.updateCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:131:45)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+ReferenceError: userModel is not defined
+    at exports.updateCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:138:24)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+SyntaxError: Unexpected token } in JSON at position 91
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:199:9)
+    at invokeCallback (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+TypeError: Cannot read properties of undefined (reading 'latitude')
+    at exports.updateCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:138:28)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)

@@ -20,10 +20,9 @@ exports.validateDesignation=function(designation){
     return false;
 };
 
-exports.validateDOB=function(dateOfBirth){
-    const dob=new Date(dateOfBirth);
+exports.validateDOB=function(dob){
     const todayDate=new Date();
-    if(todayDate.getTime()>dob.getTime()){
+    if(todayDate.getTime()>=dob.getTime()){
         return true;
     }
     return false;

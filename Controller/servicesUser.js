@@ -74,6 +74,7 @@ exports.createUser=async(req,res,next)=>{
                             active:true
                         })
                         const complete=user.save();
+                        console.log(user);
                         complete.then(
                             function(){
                                 res.status(200).json({"message":"User is created successfully"});

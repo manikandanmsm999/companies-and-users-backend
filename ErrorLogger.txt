@@ -391,3 +391,28 @@ Error: No company is registered with the mentioned Company Id : undefined
 Error: No company is registered with the mentioned Company Id : ci123 
     at exports.addUserToCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:208:23)
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+TypeError: err.status is not a function
+    at exports.invalid (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\services.js:5:13)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:280:10)
+Error: Unable to delete User is registered with the mentioned User Id : uid1 
+    at exports.deleteUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:271:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+TypeError: Cannot read properties of undefined (reading 'length')
+    at Object.exports.validateName (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Utilities\validator.js:3:13)
+    at exports.createCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:51:22)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:175:3)

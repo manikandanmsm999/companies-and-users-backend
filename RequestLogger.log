@@ -166,3 +166,13 @@ Wed Dec 21 2022 20:15:56 GMT+0530 (India Standard Time) - POST - /companies/addU
 Wed Dec 21 2022 20:16:55 GMT+0530 (India Standard Time) - DELETE - /companies/removeUserFromCompany
 Wed Dec 21 2022 20:17:11 GMT+0530 (India Standard Time) - DELETE - /companies/removeUserFromCompany
 Wed Dec 21 2022 20:17:25 GMT+0530 (India Standard Time) - DELETE - /companies/removeUserFromCompany
+Wed Dec 21 2022 21:42:15 GMT+0530 (India Standard Time) - DELETE - //users/deleteUser/uid1
+Wed Dec 21 2022 21:42:33 GMT+0530 (India Standard Time) - DELETE - //users/deleteUser/uid1
+Wed Dec 21 2022 21:44:27 GMT+0530 (India Standard Time) - DELETE - /users/deleteUser/uid1
+Wed Dec 21 2022 21:49:31 GMT+0530 (India Standard Time) - POST - /users/createUser
+Wed Dec 21 2022 21:53:23 GMT+0530 (India Standard Time) - POST - /users/createUser
+Wed Dec 21 2022 21:56:58 GMT+0530 (India Standard Time) - POST - /companies/createCompany
+Wed Dec 21 2022 21:59:13 GMT+0530 (India Standard Time) - POST - /companies/createCompany
+Wed Dec 21 2022 22:00:28 GMT+0530 (India Standard Time) - POST - /users/createUser
+Wed Dec 21 2022 22:03:14 GMT+0530 (India Standard Time) - POST - /users/createUser
+Wed Dec 21 2022 22:04:21 GMT+0530 (India Standard Time) - DELETE - /users/deleteUser/uid4

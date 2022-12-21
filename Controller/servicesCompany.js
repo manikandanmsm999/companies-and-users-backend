@@ -25,7 +25,7 @@ exports.getCompanies=async(req,res,next)=>{
 exports.getCompanyById=async(req,res,next)=>{
     try{
         let companyId=req.params.companyId;
-        const company=await companyModel.find({CompanyId:companyId},{__v:0,_id:0});
+        const company=await companyModel.find({companyId:companyId},{__v:0,_id:0});
         if(company.length>0){
             res.status(200).json(company[0]);
             res.end();
@@ -50,24 +50,24 @@ exports.createCompany=async(req,res,next)=>{
         let companyId;
         if(validator.validateName(companyName) && validator.validateAddress(companyAddress)){
             companyCounterModel.findOneAndUpdate(
-                {Id:"CompanyCount"},
-                {"$inc":{"Count":1}},
-                {new:true},(error,count)=>{
-                    if(count==null){
-                        const counterData=new companyCounterModel({Id:"CompanyCount",Count:1})
+                {id:"CompanyCount"},
+                {"$inc":{"count":1}},
+                {new:true},(error,count1)=>{
+                    if(count1==null){
+                        const counterData=new companyCounterModel({id:"CompanyCount",count:1})
                         counterData.save();
                         id=1;
                     }else{
-                        id=count.Count;
+                        id=count1.count;
                     }
                     companyId='cid'+id;
                     const company=new companyModel({
-                        CompanyId:companyId,
-                        CompanyName:companyName,
-                        CompanyAddress:companyAddress,
-                        Coordinates:{
-                            Latitude:coordinates.latitude,
-                            Longitude:coordinates.longitude
+                        companyId:companyId,
+                        companyName:companyName,
+                        companyAddress:companyAddress,
+                        coordinates:{
+                            latitude:coordinates.latitude,
+                            longitude:coordinates.longitude
                         }
                     })
                     const complete=company.save();
@@ -102,14 +102,14 @@ exports.createCompany=async(req,res,next)=>{
 exports.updateCompany=async(req,res,next)=>{
     try{
         let companyId=req.body.companyId;
-        const companyIdCount=await companyModel.find({CompanyId:companyId});
+        const companyIdCount=await companyModel.find({companyId:companyId});
         if(companyIdCount.length>=1){
             let companyName=req.body.companyName;
             let companyAddress=req.body.companyAddress;
             let coordinates=req.body.coordinates;
             if(validator.nullAndUndefinedCheck(companyName)){
                 if(validator.validateName(companyName)){
-                    const update=await companyModel.findOneAndUpdate({CompanyId:companyId},{CompanyName:companyName},{new:true});
+                    const update=await companyModel.findOneAndUpdate({companyId:companyId},{companyName:companyName},{new:true});
                     if(update==null){
                         const err=new Error(`Unable to update company`);
                         err.status=400;
@@ -124,7 +124,7 @@ exports.updateCompany=async(req,res,next)=>{
             }
             if(validator.nullAndUndefinedCheck(companyAddress)){
                 if(validator.validateAddress(companyAddress)){
-                    const update=await companyModel.findOneAndUpdate({CompanyId:companyId},{CompanyAddress:companyAddress},{new:true});
+                    const update=await companyModel.findOneAndUpdate({companyId:companyId},{companyAddress:companyAddress},{new:true});
                     if(update==null){
                         const err=new Error(`Unable to update company.`);
                         err.status=400;
@@ -138,10 +138,10 @@ exports.updateCompany=async(req,res,next)=>{
                 }
             }
             if(coordinates!=null && coordinates!=undefined && coordinates.latitude!=null && coordinates.latitude!=undefined){
-                const find=await companyModel.findOne({CompanyId:companyId});
+                const find=await companyModel.findOne({companyId:companyId});
                 const update=await companyModel.findOneAndUpdate(
-                    {CompanyId:companyId},
-                    {Coordinates:{Latitude:coordinates.latitude,Longitude:find.Coordinates.Longitude}},
+                    {companyId:companyId},
+                    {coordinates:{latitude:coordinates.latitude,longitude:find.coordinates.longitude}},
                     {new:true});
                 if(update==null){
                     const err=new Error(`Unable to update company`);
@@ -151,10 +151,10 @@ exports.updateCompany=async(req,res,next)=>{
 
             }
             if(coordinates!=null && coordinates!=undefined && coordinates.longitude!=null && coordinates.longitude!=undefined){
-                const find=await companyModel.findOne({CompanyId:companyId});
+                const find=await companyModel.findOne({companyId:companyId});
                 const update=await companyModel.findOneAndUpdate(
-                    {CompanyId:companyId},
-                    {Coordinates:{Latitude:find.Coordinates.Latitude,Longitude:coordinates.longitude}},
+                    {companyId:companyId},
+                    {coordinates:{latitude:find.coordinates.latitude,longitude:coordinates.longitude}},
                     {new:true});
                 if(update==null){
                     const err=new Error(`Unable to update company`);
@@ -181,7 +181,7 @@ exports.updateCompany=async(req,res,next)=>{
 exports.deleteCompany=async(req,res,next)=>{
     try{
         let companyId=req.params.companyId;
-        const company=await companyModel.deleteOne({CompanyId:companyId});
+        const company=await companyModel.deleteOne({companyId:companyId});
         if(company.deletedCount!=0){
             res.status(200).json({"message":"Company with Id "+companyId+" Deleted Successfully"});
             res.end();
@@ -201,8 +201,8 @@ exports.addUserToCompany=async(req,res,next)=>{
     try{
         let companyId=req.body.companyId;
         let userId=req.body.userId;
-        const companyCount=await companyModel.find({CompanyId:companyId});
-        const userCount=await userModel.find({UserId:userId});
+        const companyCount=await companyModel.find({companyId:companyId});
+        const userCount=await userModel.find({userId:userId});
 
         if(companyCount.length<=0){
             const err=new Error(`No company is registered with the mentioned Company Id : ${companyId} `);
@@ -216,8 +216,8 @@ exports.addUserToCompany=async(req,res,next)=>{
         }
 
         const insert=new companyUserMappingModel({
-            CompanyId:companyId,
-            UserId:userId
+            companyId:companyId,
+            userId:userId
         })
         const complete=insert.save();
         complete.then(
@@ -241,8 +241,8 @@ exports.removeUserFromCompany=async(req,res,next)=>{
     try{
         let companyId=req.body.companyId;
         let userId=req.body.userId;
-        const companyCount=await companyModel.find({CompanyId:companyId});
-        const userCount=await userModel.find({UserId:userId});
+        const companyCount=await companyModel.find({companyId:companyId});
+        const userCount=await userModel.find({userId:userId});
 
         if(companyCount.length<=0){
             const err=new Error(`No company is registered with the mentioned Company Id : ${companyId} `);
@@ -255,7 +255,7 @@ exports.removeUserFromCompany=async(req,res,next)=>{
             throw err;
         }
 
-        const deleteAll=companyUserMappingModel.deleteMany({$and:[{CompanyId:companyId},{UserId:userId}]});
+        const deleteAll=companyUserMappingModel.deleteMany({$and:[{companyId:companyId},{userId:userId}]});
         deleteAll.then(
             function(){
                 res.status(200).json({"message":"User deleted from the company"});

@@ -2,25 +2,25 @@ const mongoose=require('mongoose');
 const coordinate=require('./coordinateSchema');
 
 const companySchema=new mongoose.Schema({
-    CompanyId:{
+    companyId:{
         type:String,
         required:true,
         unique:true,
     },
-    CompanyName:{
+    companyName:{
         type:String,
         required:true,
     },
-    CompanyAddress:{
+    companyAddress:{
         type:String,
         required:true,
     },
-    Coordinates:{
-        Latitude:{
+    coordinates:{
+        latitude:{
             type:Number,
             required:true,
         },
-        Longitude:{
+        longitude:{
             type:Number,
             required:true,
         },

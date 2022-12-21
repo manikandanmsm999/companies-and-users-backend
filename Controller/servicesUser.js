@@ -23,7 +23,7 @@ exports.getUsers=async(req,res,next)=>{
 exports.getUsersById=async(req,res,next)=>{
     try{
         let userId=req.params.userId;
-        const user=await userModel.find({UserId:userId},{__v:0,_id:0});
+        const user=await userModel.find({userId:userId},{__v:0,_id:0});
         if(user.length>0){
             res.status(200).json(user[0]);
             res.end();
@@ -49,28 +49,28 @@ exports.createUser=async(req,res,next)=>{
         let id;
         let userId;
         if(validator.validateName(firstName) && validator.validateName(lastName) && validator.validateEmail(email) && validator.validateDesignation(designation) && validator.validateDOB(dob)){
-            const emailDuplicateCheker=await userModel.find({Email:email});
+            const emailDuplicateCheker=await userModel.find({email:email});
             if(emailDuplicateCheker.length<=0){
                 userCounterModel.findOneAndUpdate(
-                    {Id:"UserCount"},
-                    {"$inc":{"Count":1}},
-                    {new:true},(error,count)=>{
-                        if(count==null){
-                            const counterData=new userCounterModel({Id:"UserCount",Count:1})
+                    {id:"UserCount"},
+                    {"$inc":{"count":1}},
+                    {new:true},(error,count1)=>{
+                        if(count1==null){
+                            const counterData=new userCounterModel({id:"UserCount",count:1})
                             counterData.save();
                             id=1;
                         }else{
-                            id=count.Count;
+                            id=count1.count;
                         }
                         userId='uid'+id;
                         const user=new userModel({
-                            UserId:userId,
-                            FirstName:firstName,
-                            LastName:lastName,
-                            Email:email,
-                            Designation:designation,
-                            DateOfBirth:dob,
-                            Active:true
+                            userId:userId,
+                            firstName:firstName,
+                            lastName:lastName,
+                            email:email,
+                            designation:designation,
+                            dob:dob,
+                            active:true
                         })
                         const complete=user.save();
                         complete.then(
@@ -125,7 +125,7 @@ exports.createUser=async(req,res,next)=>{
 exports.updateUser=async(req,res,next)=>{
     try{
         let userId=req.body.userId;
-        const userIdCount=await userModel.find({UserId:userId});
+        const userIdCount=await userModel.find({userId:userId});
         if(userIdCount.length>=1){
             let firstName=req.body.firstName;
             let lastName=req.body.lastName;
@@ -134,7 +134,7 @@ exports.updateUser=async(req,res,next)=>{
             let dob=req.body.dob;
             if(validator.nullAndUndefinedCheck(firstName)){
                 if(validator.validateName(firstName)){
-                    const update=await userModel.findOneAndUpdate({UserId:userId},{FirstName:firstName},{new:true});
+                    const update=await userModel.findOneAndUpdate({userId:userId},{firstName:firstName},{new:true});
                     if(update==null){
                         const err=new Error(`Unable to update user`);
                         err.status=400;
@@ -149,7 +149,7 @@ exports.updateUser=async(req,res,next)=>{
             }
             if(validator.nullAndUndefinedCheck(lastName)){
                 if(validator.validateName(lastName)){
-                    const update=await userModel.findOneAndUpdate({UserId:userId},{LastName:lastName},{new:true});
+                    const update=await userModel.findOneAndUpdate({userId:userId},{lastName:lastName},{new:true});
                     if(update==null){
                         const err=new Error(`Unable to update user`);
                         err.status=400;
@@ -164,9 +164,9 @@ exports.updateUser=async(req,res,next)=>{
             }
             if(validator.nullAndUndefinedCheck(email)){
                 if(validator.validateEmail(email)){
-                    const emailDuplicateCheker=await userModel.find({Email:email});
+                    const emailDuplicateCheker=await userModel.find({email:email});
                     if(emailDuplicateCheker.length<=0){
-                        const update=await userModel.findOneAndUpdate({UserId:userId},{Email:email},{new:true});
+                        const update=await userModel.findOneAndUpdate({userId:userId},{email:email},{new:true});
                         if(update==null){
                             const err=new Error(`Unable to update user`);
                             err.status=400;
@@ -187,7 +187,7 @@ exports.updateUser=async(req,res,next)=>{
             }
             if(validator.nullAndUndefinedCheck(designation)){
                 if(validator.validateDesignation(designation)){
-                    const update=await userModel.findOneAndUpdate({UserId:userId},{Designation:designation},{new:true});
+                    const update=await userModel.findOneAndUpdate({userId:userId},{designation:designation},{new:true});
                     if(update==null){
                         const err=new Error(`Unable to update user`);
                         err.status=400;
@@ -203,7 +203,7 @@ exports.updateUser=async(req,res,next)=>{
             if(validator.nullAndUndefinedCheck(dob)){
                 dob=new Date(dob);
                 if(validator.validateDOB(dob)){
-                    const update=await userModel.findOneAndUpdate({UserId:userId},{DateOfBirth:dob},{new:true});
+                    const update=await userModel.findOneAndUpdate({userId:userId},{dob:dob},{new:true});
                     if(update==null){
                         const err=new Error(`Unable to update user`);
                         err.status=400;
@@ -232,7 +232,7 @@ exports.updateUser=async(req,res,next)=>{
 exports.deactivateUser=async(req,res,next)=>{
     try{
         let userId=req.params.userId;
-        const user=await userModel.findOneAndUpdate({UserId:userId},{Active:false});
+        const user=await userModel.findOneAndUpdate({userId:userId},{active:false});
         if(user!=null){
             res.status(200).json({"message":"User deactivated successfully"});
             res.end();
@@ -251,7 +251,7 @@ exports.deactivateUser=async(req,res,next)=>{
 exports.deleteUser=async(req,res,next)=>{
     try{
         let userId=req.params.userId;
-        const user=await userModel.deleteOne({UserId:userId});
+        const user=await userModel.deleteOne({userId:userId});
         if(user.deletedCount!=0){
             res.status(200).json({"message":"User with Id "+userId+" Deleted Successfully"});
             res.end();

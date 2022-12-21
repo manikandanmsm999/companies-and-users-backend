@@ -1,36 +1,33 @@
 const mongoose=require('mongoose');
 
-
-
-
 const userSchema=new mongoose.Schema({
-    UserId:{
+    userId:{
         type:String,
         required:true,
         unique:true,
     },
-    FirstName:{
+    firstName:{
         type:String,
         required:true,
     },
-    LastName:{
+    lastName:{
         type:String,
         required:true,
     },
-    Email:{
+    email:{
         type:String,
         required:true,
         unique:true,
     },
-    Designation:{
+    designation:{
         type:String,
         required:true,
     },
-    DateOfBirth:{
+    dateOfBirth:{
         type:Date,
         required:true,
     },
-    Active:{
+    active:{
         type:Boolean,
         required:true,
     }

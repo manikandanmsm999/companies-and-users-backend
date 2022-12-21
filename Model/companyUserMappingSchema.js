@@ -1,11 +1,11 @@
 const mongoose=require('mongoose');
 
 const companyUserMappingSchema=new mongoose.Schema({
-    CompanyId:{
+    companyId:{
         type:String,
         required:true,
     },
-    UserId:{
+    userId:{
         type:String,
         required:true,
     },

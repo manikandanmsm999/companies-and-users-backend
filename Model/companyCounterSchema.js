@@ -1,10 +1,10 @@
 const mongoose=require('mongoose');
 
 const companyCounterSchema=new mongoose.Schema({
-    Id:{
+    id:{
         type:String,
     },
-    Count:{
+    count:{
         type:Number,
     },
 });

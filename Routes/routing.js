@@ -16,7 +16,7 @@ routing.post('/users/createUser',servicesUser.createUser);
 
 routing.put('/companies/updateCompany',servicesCompany.updateCompany);
 routing.put('/users/updateUser',servicesUser.updateUser);
-routing.put('/users/deactivateUser',servicesUser.deactivateUser);
+routing.put('/users/deactivateUser/:userId',servicesUser.deactivateUser);
 
 routing.delete('/companies/deleteCompany/:companyId',servicesCompany.deleteCompany);
 routing.delete('/users/deleteUser/:userId',servicesUser.deleteUser);

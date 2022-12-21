@@ -37,3 +37,10 @@ exports.validateEmail=function(email){
     return false;
 };
 
+exports.nullAndUndefinedCheck=function(value){
+    if(value!=null && value!=undefined){
+        return true;
+    }
+    return false;
+};
+

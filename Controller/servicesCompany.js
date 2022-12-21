@@ -1,4 +1,5 @@
 const companyModel=require('../Model/companySchema');
+const companyCounterModel=require('../Model/companyCounterSchema');
 const validator=require('../Utilities/validator');
 
 exports.getCompanies=async(req,res,next)=>{
@@ -20,8 +21,8 @@ exports.getCompanies=async(req,res,next)=>{
 };
 
 exports.getCompanyById=async(req,res,next)=>{
-    let companyId=req.params.companyId;
     try{
+        let companyId=req.params.companyId;
         const company=await companyModel.find({CompanyId:companyId},{__v:0,_id:0});
         if(company.length>0){
             res.status(200).json(company[0]);
@@ -38,13 +39,70 @@ exports.getCompanyById=async(req,res,next)=>{
     }
 };
 
-exports.createCompany=async(req,res,next)=>{};
+exports.createCompany=async(req,res,next)=>{
+    try{
+        let companyName=req.body.companyName;
+        let companyAddress=req.body.companyAddress;
+        let coordinates=req.body.coordinates;
+        let id;
+        let companyId;
+        if(validator.validateName(companyName) && validator.validateAddress(companyAddress)){
+            companyCounterModel.findOneAndUpdate(
+                {Id:"CompanyCount"},
+                {"$inc":{"Count":1}},
+                {new:true},(error,count)=>{
+                    if(count==null){
+                        const counterData=new companyCounterModel({Id:"CompanyCount",Count:1})
+                        counterData.save();
+                        id=1;
+                    }else{
+                        id=count.Count;
+                    }
+                    companyId='cid'+id;
+                    const company=new companyModel({
+                        CompanyId:companyId,
+                        CompanyName:companyName,
+                        CompanyAddress:companyAddress,
+                        Coordinates:{
+                            Latitude:coordinates.latitude,
+                            Longitude:coordinates.longitude
+                        }
+                    })
+                    const complete=company.save();
+                    complete.then(
+                        function(){
+                            res.status(200).json({"message":"Company is created successfully"});
+                        },
+                        function(){
+                            const err=new Error(`Unable to create company`);
+                            err.status=400;
+                            throw err;
+                        }
+                    )
+                })
+        }
+        else if(!validator.validateName(companyName)){
+            const err=new Error('Company Name should be of length between 1 till 20');
+            err.status=401;
+            throw err;
+        }
+        else if(!validator.validateAddress(companyAddress)){
+            const err=new Error('Company Name should be of length between 15 till 200');
+            err.status=401;
+            throw err;
+        }
+    }
+    catch(err){
+        next(err);
+    }
+};
 
-exports.updateCompany=async(req,res,next)=>{};
+exports.updateCompany=async(req,res,next)=>{
+};
 
 exports.deleteCompany=async(req,res,next)=>{
-    let companyId=req.params.companyId;
     try{
+        let companyId=req.params.companyId;
         const company=await companyModel.deleteOne({CompanyId:companyId});
         if(company.deletedCount!=0){
             res.status(200).json({"message":"Company with Id "+companyId+" Deleted Successfully"});

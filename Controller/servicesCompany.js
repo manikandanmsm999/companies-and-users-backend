@@ -124,7 +124,7 @@ exports.updateCompany=async(req,res,next)=>{
                 if(validator.validateAddress(companyAddress)){
                     const update=await companyModel.findOneAndUpdate({CompanyId:companyId},{CompanyAddress:companyAddress},{new:true});
                     if(update==null){
-                        const err=new Error(`Unable to update company`);
+                        const err=new Error(`Unable to update company.`);
                         err.status=400;
                         throw err;
                     }

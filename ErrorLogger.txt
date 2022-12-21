@@ -352,3 +352,24 @@ SyntaxError: Unexpected token } in JSON at position 91
 TypeError: Cannot read properties of undefined (reading 'latitude')
     at exports.updateCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:138:28)
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No company is available with the mentioned id
+    at exports.updateUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:222:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Email entered is not on required format
+    at exports.updateUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:183:31)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Email entered is not on required format
+    at exports.updateUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:183:31)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Date of birth should be less than todays current date
+    at exports.updateUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:214:31)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: User exists with this email id
+    at exports.updateUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:177:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: User exists with this email id
+    at exports.updateUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:177:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Date of birth should be less than todays current date
+    at exports.updateUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:214:31)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)

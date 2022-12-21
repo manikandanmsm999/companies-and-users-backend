@@ -183,8 +183,18 @@ exports.deleteCompany=async(req,res,next)=>{
         let companyId=req.params.companyId;
         const company=await companyModel.deleteOne({companyId:companyId});
         if(company.deletedCount!=0){
-            res.status(200).json({"message":"Company with Id "+companyId+" Deleted Successfully"});
-            res.end();
+            const deleteAll=companyUserMappingModel.deleteMany({companyId:companyId});
+            deleteAll.then(
+                function(){
+                    res.status(200).json({"message":"Company with Id "+companyId+" Deleted Successfully"});
+                    res.end();
+                },
+                function(){
+                    const err=new Error(`Unable to delete user from the company`);
+                    err.status=400;
+                    throw err;
+                }
+            )
         }
         else{
             const err=new Error(`Unable to delete company is registered with the mentioned Company Id : ${companyId} `);

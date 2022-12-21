@@ -1,5 +1,6 @@
 const userModel=require('../Model/userSchema');
 const userCounterModel=require('../Model/userCounterSchema');
+const companyUserMappingModel=require('../Model/companyUserMappingSchema');
 const validator=require('../Utilities/validator');
 
 exports.getUsers=async(req,res,next)=>{
@@ -253,8 +254,18 @@ exports.deleteUser=async(req,res,next)=>{
         let userId=req.params.userId;
         const user=await userModel.deleteOne({userId:userId});
         if(user.deletedCount!=0){
-            res.status(200).json({"message":"User with Id "+userId+" Deleted Successfully"});
-            res.end();
+            const deleteAll=companyUserMappingModel.deleteMany({userId:userId});
+            deleteAll.then(
+                function(){
+                    res.status(200).json({"message":"User with Id "+userId+" Deleted Successfully"});
+                    res.end();
+                },
+                function(){
+                    const err=new Error(`Unable to delete user from the company user mapping`);
+                    err.status=400;
+                    throw err;
+                }
+            )
         }
         else{
             const err=new Error(`Unable to delete User is registered with the mentioned User Id : ${userId} `);

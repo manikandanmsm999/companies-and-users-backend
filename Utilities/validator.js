@@ -6,6 +6,13 @@ exports.validateName=function(name){
     return false;
 };
 
+exports.validateAddress=function(address){
+    if(address.length >=15 && address.length<=200){
+        return true;
+    }
+    return false;
+};
+
 exports.validateDesignation=function(designation){
     if(designation.length >=2 && designation.length<=20){
         return true;

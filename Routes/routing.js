@@ -1,9 +1,9 @@
 const express=require('express');
 
 const routing=express.Router();
-const servicesCompany=require('../Controller.servicesCompany');
-const servicesUser=require('../Controller.servicesUser');
-const services=require('../Controller.services');
+const servicesCompany=require('../Controller/servicesCompany');
+const servicesUser=require('../Controller/servicesUser');
+const services=require('../Controller/services');
 
 routing.get('/companies/getCompanies',servicesCompany.getCompanies);
 routing.get('/users/getUsers',servicesUser.getUsers);

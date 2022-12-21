@@ -1,0 +1,101 @@
+Error: No company is registered at this moment, Please try later
+    at exports.getCompanies (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:14:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No company is registered with the mentioned Company Id
+    at exports.getCompanyById (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:31:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+ReferenceError: companyId is not defined
+    at exports.deleteCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:52:109)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+ReferenceError: companyId is not defined
+    at exports.deleteCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:52:109)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+ReferenceError: companyId is not defined
+    at exports.deleteCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:52:109)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+ReferenceError: companyId is not defined
+    at exports.deleteCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:52:109)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+TypeError: companyModel.delete is not a function
+    at exports.deleteCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:46:48)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:280:10)
+ReferenceError: companyId is not defined
+    at exports.deleteCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:52:109)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+ReferenceError: companyId is not defined
+    at exports.deleteCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:52:109)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+ReferenceError: companyId is not defined
+    at exports.deleteCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:52:109)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+ReferenceError: companyId is not defined
+    at exports.deleteCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:52:109)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+ReferenceError: companyId is not defined
+    at exports.deleteCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:52:109)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Unable to deleteNo company is registered with the mentioned Company Id : undefined 
+    at exports.deleteCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:52:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Unable to deleteNo company is registered with the mentioned Company Id : undefined 
+    at exports.deleteCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:52:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Unable to delete company is registered with the mentioned Company Id : c0002 
+    at exports.deleteCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:53:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Unable to delete company is registered with the mentioned Company Id : c001 
+    at exports.deleteCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:53:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No company is registered at this moment, Please try later
+    at exports.getCompanies (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:12:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No company is registered with the mentioned Company Id
+    at exports.getCompanyById (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:30:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Unable to delete company is registered with the mentioned Company Id : c002 
+    at exports.deleteCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:53:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Unable to delete company is registered with the mentioned Company Id : c001 
+    at exports.deleteCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:53:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Unable to delete company is registered with the mentioned Company Id : c002 
+    at exports.deleteCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:53:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Unable to delete company is registered with the mentioned Company Id : c001 
+    at exports.deleteCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:53:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Unable to delete company is registered with the mentioned Company Id : c0002 
+    at exports.deleteCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:56:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Unable to delete company is registered with the mentioned Company Id : c001 
+    at exports.deleteCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:56:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Unable to delete company is registered with the mentioned Company Id : c002 
+    at exports.deleteCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:56:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Unable to delete company is registered with the mentioned Company Id : c001 
+    at exports.deleteCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:56:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Unable to delete company is registered with the mentioned Company Id : c002 
+    at exports.deleteCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:57:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Unable to delete company is registered with the mentioned Company Id : c002 
+    at exports.deleteCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:57:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No company is registered with the mentioned Company Id
+    at exports.getCompanyById (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:30:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No company is registered with the mentioned Company Id  : c001 
+    at exports.getCompanyById (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:31:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Unable to delete company is registered with the mentioned Company Id : c002 
+    at exports.deleteCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:54:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)

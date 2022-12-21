@@ -1,4 +1,6 @@
 const companyModel=require('../Model/companySchema');
+const userModel=require('../Model/userSchema');
+const companyUserMappingModel=require('../Model/companyUserMappingSchema');
 const companyCounterModel=require('../Model/companyCounterSchema');
 const validator=require('../Utilities/validator');
 
@@ -189,6 +191,82 @@ exports.deleteCompany=async(req,res,next)=>{
             err.status=400;
             throw err;
         }
+    }
+    catch(err){
+        next(err);
+    }
+};
+
+exports.addUserToCompany=async(req,res,next)=>{
+    try{
+        let companyId=req.body.companyId;
+        let userId=req.body.userId;
+        const companyCount=await companyModel.find({CompanyId:companyId});
+        const userCount=await userModel.find({UserId:userId});
+
+        if(companyCount.length<=0){
+            const err=new Error(`No company is registered with the mentioned Company Id : ${companyId} `);
+            err.status=400;
+            throw err;
+        }
+        if(userCount.length<=0){
+            const err=new Error(`No user is registered with the mentioned Company Id : ${userId} `);
+            err.status=400;
+            throw err;
+        }
+
+        const insert=new companyUserMappingModel({
+            CompanyId:companyId,
+            UserId:userId
+        })
+        const complete=insert.save();
+        complete.then(
+            function(){
+                res.status(200).json({"message":"User added to the company"});
+            },
+            function(){
+                const err=new Error(`Unable to add user to the company`);
+                err.status=400;
+                throw err;
+            }
+        )
+
+    }
+    catch(err){
+        next(err);
+    }
+};
+
+exports.removeUserFromCompany=async(req,res,next)=>{
+    try{
+        let companyId=req.body.companyId;
+        let userId=req.body.userId;
+        const companyCount=await companyModel.find({CompanyId:companyId});
+        const userCount=await userModel.find({UserId:userId});
+
+        if(companyCount.length<=0){
+            const err=new Error(`No company is registered with the mentioned Company Id : ${companyId} `);
+            err.status=400;
+            throw err;
+        }
+        if(userCount.length<=0){
+            const err=new Error(`No user is registered with the mentioned Company Id : ${userId} `);
+            err.status=400;
+            throw err;
+        }
+
+        const deleteAll=companyUserMappingModel.deleteMany({$and:[{CompanyId:companyId},{UserId:userId}]});
+        deleteAll.then(
+            function(){
+                res.status(200).json({"message":"User deleted from the company"});
+            },
+            function(){
+                const err=new Error(`Unable to delete user from the company`);
+                err.status=400;
+                throw err;
+            }
+        )
+
     }
     catch(err){
         next(err);

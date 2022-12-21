@@ -373,3 +373,21 @@ Error: User exists with this email id
 Error: Date of birth should be less than todays current date
     at exports.updateUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:214:31)
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+ReferenceError: UserId is not defined
+    at exports.addUserToCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:205:54)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+ReferenceError: UserId is not defined
+    at exports.addUserToCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:205:54)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+ReferenceError: UserId is not defined
+    at exports.addUserToCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:205:54)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+ReferenceError: UserId is not defined
+    at exports.addUserToCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:205:54)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No company is registered with the mentioned Company Id : undefined 
+    at exports.addUserToCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:208:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No company is registered with the mentioned Company Id : ci123 
+    at exports.addUserToCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:208:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)

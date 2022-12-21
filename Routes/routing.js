@@ -13,6 +13,8 @@ routing.get('/users/getUserById/:userId',servicesUser.getUsersById);
 
 routing.post('/companies/createCompany',servicesCompany.createCompany);
 routing.post('/users/createUser',servicesUser.createUser);
+routing.post('/companies/addUserToCompany',servicesCompany.addUserToCompany);
+
 
 routing.put('/companies/updateCompany',servicesCompany.updateCompany);
 routing.put('/users/updateUser',servicesUser.updateUser);
@@ -20,6 +22,7 @@ routing.put('/users/deactivateUser/:userId',servicesUser.deactivateUser);
 
 routing.delete('/companies/deleteCompany/:companyId',servicesCompany.deleteCompany);
 routing.delete('/users/deleteUser/:userId',servicesUser.deleteUser);
+routing.delete('/companies/removeUserFromCompany',servicesCompany.removeUserFromCompany);
 
 routing.all('*',services.invalid);
 

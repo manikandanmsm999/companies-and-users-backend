@@ -782,3 +782,109 @@ Error: No company is registered with the mentioned Company Id  : undefined
     at exports.getCompanyById (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:34:23)
     at runMicrotasks (<anonymous>)
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No User is available with the mentioned id
+    at exports.updateUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:225:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: First Name should be of length between 1 till 20
+    at exports.updateUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:154:31)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: First Name should be of length between 1 till 20
+    at exports.updateUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:154:31)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: First Name should be of length between 1 till 20
+    at exports.updateUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:154:31)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: First Name should be of length between 1 till 20
+    at exports.updateUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:154:31)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: First Name should be of length between 1 till 20
+    at exports.updateUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:154:31)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Designation should be of length between 2 till 20
+    at exports.updateUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:207:31)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Date of birth should be less than todays current date
+    at exports.updateUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:223:31)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No User is available with the mentioned id
+    at exports.updateUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:231:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No User is available with the mentioned id
+    at exports.updateUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:231:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No company is registered with the mentioned Company Id  : 2 
+    at exports.getCompanyById (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:34:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Invalid path
+    at exports.invalid (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\services.js:4:19)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:280:10)
+Error: No company is available with the mentioned id
+    at exports.updateCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:170:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No company is registered with the mentioned Company Id : cid1 
+    at exports.addUserToCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:218:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No company is registered with the mentioned Company Id : cid1 
+    at exports.addUserToCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:218:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No user is registered with the mentioned Company Id : uid1 
+    at exports.addUserToCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:223:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No company is registered with the mentioned Company Id : cid7 
+    at exports.removeUserFromCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:258:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No user is registered with the mentioned Company Id : uid2 
+    at exports.removeUserFromCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:263:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Unable to delete company is registered with the mentioned Company Id : uid2 
+    at exports.deleteCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:200:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Unable to deactivate user as no user is registered with the mentioned User Id : cid9 
+    at exports.deactivateUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:243:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Unable to delete User is registered with the mentioned User Id : cid26 
+    at exports.deleteUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:272:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No company is registered with the mentioned Company Id  : cid26 
+    at exports.getCompanyById (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:34:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No company is registered with the mentioned Company Id : cid1 
+    at exports.addUserToCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:218:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No user is registered with the mentioned Company Id : uid1 
+    at exports.addUserToCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:223:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No company is registered with the mentioned Company Id  : uid4 
+    at exports.getCompanyById (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:34:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Company Address should be of length between 15 till 200
+    at exports.updateCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:129:31)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Company Address should be of length between 15 till 200
+    at exports.updateCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:129:31)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No company is available with the mentioned id
+    at exports.updateCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:164:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)

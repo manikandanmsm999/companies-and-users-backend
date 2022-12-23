@@ -101,20 +101,19 @@ exports.createCompany=async(req,res,next)=>{
 
 exports.updateCompany=async(req,res,next)=>{
     try{
+        let company={};
+        let coordinates={};
+        let coordinatesCount=0;
         let companyId=req.body.companyId;
         const companyIdCount=await companyModel.find({companyId:companyId});
         if(companyIdCount.length>=1){
             let companyName=req.body.companyName;
             let companyAddress=req.body.companyAddress;
-            let coordinates=req.body.coordinates;
+            let coords=req.body.coordinates;
+            company.companyId=companyId;
             if(validator.nullAndUndefinedCheck(companyName)){
                 if(validator.validateName(companyName)){
-                    const update=await companyModel.findOneAndUpdate({companyId:companyId},{companyName:companyName},{new:true});
-                    if(update==null){
-                        const err=new Error(`Unable to update company`);
-                        err.status=400;
-                        throw err;
-                    }
+                    company.companyName=companyName;
                 }
                 else{
                     const err=new Error('Company Name should be of length between 1 till 20');
@@ -124,12 +123,7 @@ exports.updateCompany=async(req,res,next)=>{
             }
             if(validator.nullAndUndefinedCheck(companyAddress)){
                 if(validator.validateAddress(companyAddress)){
-                    const update=await companyModel.findOneAndUpdate({companyId:companyId},{companyAddress:companyAddress},{new:true});
-                    if(update==null){
-                        const err=new Error(`Unable to update company.`);
-                        err.status=400;
-                        throw err;
-                    }
+                    company.companyAddress=companyAddress;
                 }
                 else{
                     const err=new Error('Company Address should be of length between 15 till 200');
@@ -137,33 +131,33 @@ exports.updateCompany=async(req,res,next)=>{
                     throw err;
                 }
             }
-            if(coordinates!=null && coordinates!=undefined && coordinates.latitude!=null && coordinates.latitude!=undefined){
+            if(coords!=null && coords!=undefined && coords.latitude!=null && coords.latitude!=undefined){
                 const find=await companyModel.findOne({companyId:companyId});
-                const update=await companyModel.findOneAndUpdate(
-                    {companyId:companyId},
-                    {coordinates:{latitude:coordinates.latitude,longitude:find.coordinates.longitude}},
-                    {new:true});
-                if(update==null){
-                    const err=new Error(`Unable to update company`);
-                    err.status=400;
-                    throw err;
-                }
-
+                coordinates.latitude=coords.latitude;
+                coordinates.longitude=find.coordinates.longitude;
+                coordinatesCount+=1;
             }
-            if(coordinates!=null && coordinates!=undefined && coordinates.longitude!=null && coordinates.longitude!=undefined){
-                const find=await companyModel.findOne({companyId:companyId});
-                const update=await companyModel.findOneAndUpdate(
-                    {companyId:companyId},
-                    {coordinates:{latitude:find.coordinates.latitude,longitude:coordinates.longitude}},
-                    {new:true});
-                if(update==null){
-                    const err=new Error(`Unable to update company`);
-                    err.status=400;
-                    throw err;
+            if(coords!=null && coords!=undefined && coords.longitude!=null && coords.longitude!=undefined){
+                if(coordinatesCount!=0){
+                    coordinates.longitude=coords.longitude;
+                    coordinatesCount+=1;
                 }
-
+                else{
+                    const find=await companyModel.findOne({companyId:companyId});
+                    coordinates.latitude=find.coordinates.latitude;
+                    coordinates.longitude=coords.longitude;
+                    coordinatesCount+=1;
+                }
             }
-
+            if(coordinatesCount!=0){
+                company.coordinates=coordinates;
+            }
+            const update=await companyModel.findOneAndUpdate({companyId:companyId},company,{new:true});
+            if(update==null){
+                const err=new Error(`Unable to update company`);
+                err.status=400;
+                throw err;
+            }
             res.status(200).json({"message":"Company updated successfully"});
         }
         else{
@@ -267,8 +261,13 @@ exports.removeUserFromCompany=async(req,res,next)=>{
 
         const deleteAll=companyUserMappingModel.deleteMany({$and:[{companyId:companyId},{userId:userId}]});
         deleteAll.then(
-            function(){
-                res.status(200).json({"message":"User deleted from the company"});
+            function(data){
+                if(data.deletedCount>=1){
+                    res.status(200).json({"message":"User deleted from the company"});
+                }
+                else{
+                    res.status(200).json({"message":"Mentioned userId is not mapped to the mentioned companyId"});
+                }
             },
             function(){
                 const err=new Error(`Unable to delete user from the company`);

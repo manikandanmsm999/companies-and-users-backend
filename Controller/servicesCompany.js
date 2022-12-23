@@ -89,7 +89,7 @@ exports.createCompany=async(req,res,next)=>{
             throw err;
         }
         else if(!validator.validateAddress(companyAddress)){
-            const err=new Error('Company Name should be of length between 15 till 200');
+            const err=new Error('Company Address should be of length between 15 till 200');
             err.status=401;
             throw err;
         }
@@ -132,7 +132,7 @@ exports.updateCompany=async(req,res,next)=>{
                     }
                 }
                 else{
-                    const err=new Error('Company Name should be of length between 15 till 200');
+                    const err=new Error('Company Address should be of length between 15 till 200');
                     err.status=401;
                     throw err;
                 }
@@ -249,8 +249,8 @@ exports.addUserToCompany=async(req,res,next)=>{
 
 exports.removeUserFromCompany=async(req,res,next)=>{
     try{
-        let companyId=req.body.companyId;
-        let userId=req.body.userId;
+        let companyId=req.params.companyId;
+        let userId=req.params.userId;
         const companyCount=await companyModel.find({companyId:companyId});
         const userCount=await userModel.find({userId:userId});
 

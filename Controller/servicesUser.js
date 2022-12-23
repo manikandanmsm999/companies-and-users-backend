@@ -88,7 +88,7 @@ exports.createUser=async(req,res,next)=>{
                     });
             }
             else{
-                const err=new Error('User exists with this email id');
+                const err=new Error('User already exists with this email id');
                 err.status=401;
                 throw err;
             }
@@ -176,13 +176,13 @@ exports.updateUser=async(req,res,next)=>{
                         }
                     }
                     else{
-                        const err=new Error('User exists with this email id');
+                        const err=new Error('User already exists with this email id');
                         err.status=401;
                         throw err;
                     }
                 }
                 else{
-                    const err=new Error('Email entered is not on required format');
+                    const err=new Error('Email entered is not in required format');
                     err.status=401;
                     throw err;
                 }

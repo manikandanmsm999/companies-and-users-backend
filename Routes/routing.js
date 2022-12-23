@@ -22,7 +22,7 @@ routing.put('/users/deactivateUser/:userId',servicesUser.deactivateUser);
 
 routing.delete('/companies/deleteCompany/:companyId',servicesCompany.deleteCompany);
 routing.delete('/users/deleteUser/:userId',servicesUser.deleteUser);
-routing.delete('/companies/removeUserFromCompany',servicesCompany.removeUserFromCompany);
+routing.delete('/companies/removeUserFromCompany/:companyId/:userId',servicesCompany.removeUserFromCompany);
 
 routing.all('*',services.invalid);
 

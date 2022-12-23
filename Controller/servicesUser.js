@@ -195,9 +195,7 @@ exports.updateUser=async(req,res,next)=>{
                     throw err;
                 }
             }
-            console.log(user);
             const update=await userModel.findOneAndUpdate({userId:userId},user,{new:true});
-            console.log(update);
             if(update==null){
                 const err=new Error(`Unable to update user`);
                 err.status=400;

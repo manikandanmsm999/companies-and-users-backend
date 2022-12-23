@@ -191,7 +191,7 @@ exports.deleteCompany=async(req,res,next)=>{
             )
         }
         else{
-            const err=new Error(`Unable to delete company is registered with the mentioned Company Id : ${companyId} `);
+            const err=new Error(`No company registered with the mentioned Company Id : ${companyId} `);
             err.status=400;
             throw err;
         }

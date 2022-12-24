@@ -1,18 +1,10 @@
 const mongoose=require('mongoose');
 
-const companySchema=new mongoose.Schema({
-    companyId:{
+const mapSchema=new mongoose.Schema({
+    address:{
         type:String,
         required:true,
         unique:true,
-    },
-    companyName:{
-        type:String,
-        required:true,
-    },
-    companyAddress:{
-        type:String,
-        required:true,
     },
     coordinates:{
         latitude:{
@@ -26,6 +18,6 @@ const companySchema=new mongoose.Schema({
     }
 });
 
-const companyModel=mongoose.model('companies',companySchema);
+const mapModel=mongoose.model('map',mapSchema);
 
-module.exports=companyModel;
+module.exports=mapModel;

@@ -1087,3 +1087,269 @@ Error: Unable to delete company is registered with the mentioned Company Id : ci
     at exports.deleteCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:194:23)
     at runMicrotasks (<anonymous>)
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Invalid path
+    at exports.invalid (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\services.js:4:19)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:280:10)
+SyntaxError: Unexpected token , in JSON at position 152
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:199:9)
+    at invokeCallback (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+SyntaxError: Unexpected token , in JSON at position 152
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:199:9)
+    at invokeCallback (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+SyntaxError: Unexpected token , in JSON at position 152
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:199:9)
+    at invokeCallback (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+SyntaxError: Unexpected token , in JSON at position 152
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:199:9)
+    at invokeCallback (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+SyntaxError: Unexpected token , in JSON at position 152
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:199:9)
+    at invokeCallback (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: Invalid path
+    at exports.invalid (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\services.js:4:19)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:280:10)
+Error: Company Address should be of length between 15 till 200
+    at exports.createCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:92:23)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:47:12)
+Error: Company Address should be of length between 15 till 200
+    at exports.createCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:92:23)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:47:12)
+Error: Company Address should be of length between 15 till 200
+    at exports.updateCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:129:31)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No User is registered at this moment, Please try later
+    at exports.getUsers (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:14:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No company is registered at this moment, Please try later
+    at exports.getCompanies (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:15:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No User is registered at this moment, Please try later
+    at exports.getUsers (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:14:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No company is registered with the mentioned Company Id  : cid7 
+    at exports.getCompanyById (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:34:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No User is registered with the mentioned User Id  : cid37 
+    at exports.getUsersById (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:33:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No company is registered at this moment, Please try later
+    at exports.getCompanies (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:15:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No User is registered at this moment, Please try later
+    at exports.getUsers (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:14:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No company is registered with the mentioned Company Id  : cid7 
+    at exports.getCompanyById (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:34:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No User is registered with the mentioned User Id  : cid0 
+    at exports.getUsersById (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:33:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Unable to deactivate user as no user is registered with the mentioned User Id : cid7 
+    at exports.deactivateUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:226:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Unable to delete User is registered with the mentioned User Id : cid7 
+    at exports.deleteUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:255:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Unable to delete User, as no is registered with the mentioned User Id : cid7 
+    at exports.deleteUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:255:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No company registered with the mentioned Company Id : cid0 
+    at exports.deleteCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:194:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No company is registered with the mentioned Company Id : sca 
+    at exports.addUserToCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:212:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No company is registered with the mentioned Company Id : sca 
+    at exports.removeUserFromCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:252:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: User already exists with this email id
+    at exports.createUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:91:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Date of birth should be less than todays current date
+    at exports.createUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:117:23)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:47:12)
+Error: Designation should be of length between 2 till 20
+    at exports.createUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:112:23)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:47:12)
+Error: No User is registered with the mentioned User Id  : uid8 
+    at exports.getUsersById (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:33:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No User is available with the mentioned id
+    at exports.updateUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:207:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Designation should be of length between 2 till 20
+    at exports.updateUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:182:31)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Date of birth should be less than todays current date
+    at exports.updateUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:193:31)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: User already exists with this email id
+    at exports.updateUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:166:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Unable to deactivate user, as no user is registered with the mentioned User Id : uid8 
+    at exports.deactivateUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:226:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Unable to delete User, as no is registered with the mentioned User Id : cid7 
+    at exports.deleteUser (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:255:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No User is registered at this moment, Please try later
+    at exports.getUsers (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesUser.js:14:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Company Address should be of length between 15 till 200
+    at exports.createCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:92:23)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\node_modules\express\lib\router\index.js:47:12)
+Error: No company is registered with the mentioned Company Id  : cid7 
+    at exports.getCompanyById (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:34:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No company is registered with the mentioned Company Id  : cid9 
+    at exports.getCompanyById (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:34:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Company Address should be of length between 15 till 200
+    at exports.updateCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:129:31)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No company registered with the mentioned Company Id : cid7 
+    at exports.deleteCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:194:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No company registered with the mentioned Company Id : cid21 
+    at exports.deleteCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:194:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No company registered with the mentioned Company Id : cid2 
+    at exports.deleteCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:194:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No company is registered at this moment, Please try later
+    at exports.getCompanies (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:15:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No company is registered with the mentioned Company Id : uid1 
+    at exports.addUserToCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:212:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No user is registered with the mentioned Company Id : cid1 
+    at exports.addUserToCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:217:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No company is registered with the mentioned Company Id : cid1 
+    at exports.addUserToCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:212:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No user is registered with the mentioned Company Id : uid0 
+    at exports.addUserToCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:217:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No company is registered with the mentioned Company Id : cid1 
+    at exports.removeUserFromCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:252:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No user is registered with the mentioned Company Id : uid1 
+    at exports.removeUserFromCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:257:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No user is registered with the mentioned Company Id : uid6 
+    at exports.removeUserFromCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:257:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No user is registered with the mentioned Company Id : uid6 
+    at exports.removeUserFromCompany (C:\Users\MANIKANDAN\Desktop\EffyCompaniesAndUsers\EffyCompaniesAndUsersBackend\Controller\servicesCompany.js:257:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)

@@ -4,6 +4,10 @@ const routing=express.Router();
 const servicesCompany=require('../Controller/servicesCompany');
 const servicesUser=require('../Controller/servicesUser');
 const services=require('../Controller/services');
+const servicesMap=require('../Controller/servicesMap');
+
+routing.get('/map/getCoordinates/:address',servicesMap.getCoordinates);
+routing.all('/map/getCoordinates/*',servicesMap.mapInvalid);
 
 routing.get('/companies/getCompanies',servicesCompany.getCompanies);
 routing.get('/users/getUsers',servicesUser.getUsers);

@@ -223,7 +223,7 @@ exports.deactivateUser=async(req,res,next)=>{
             res.end();
         }
         else{
-            const err=new Error(`Unable to deactivate user as no user is registered with the mentioned User Id : ${userId} `);
+            const err=new Error(`Unable to deactivate user, as no user is registered with the mentioned User Id : ${userId} `);
             err.status=400;
             throw err;
         }
@@ -245,14 +245,14 @@ exports.deleteUser=async(req,res,next)=>{
                     res.end();
                 },
                 function(){
-                    const err=new Error(`Unable to delete user from the company user mapping`);
+                    const err=new Error(`Unable to delete user`);
                     err.status=400;
                     throw err;
                 }
             )
         }
         else{
-            const err=new Error(`Unable to delete User is registered with the mentioned User Id : ${userId} `);
+            const err=new Error(`Unable to delete User, as no is registered with the mentioned User Id : ${userId} `);
             err.status=400;
             throw err;
         }

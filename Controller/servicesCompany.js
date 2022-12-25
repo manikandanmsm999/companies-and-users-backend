@@ -254,7 +254,7 @@ exports.removeUserFromCompany=async(req,res,next)=>{
             throw err;
         }
         if(userCount.length<=0){
-            const err=new Error(`No user is registered with the mentioned Company Id : ${userId} `);
+            const err=new Error(`The mentioned user is not mapped with the mentioned company`);
             err.status=400;
             throw err;
         }

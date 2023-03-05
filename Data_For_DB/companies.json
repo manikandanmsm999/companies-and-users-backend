@@ -1,0 +1,97 @@
+[{
+  "companyId": "cid3",
+  "companyName": "Samsung",
+  "companyAddress": "16, Mobile dev park, Chennai",
+  "coordinates": {
+    "latitude": 13.0825,
+    "longitude": 80.275
+  }
+},{
+  "companyId": "cid4",
+  "companyName": "Tata",
+  "companyAddress": "Tata steel plant, Manglore,",
+  "coordinates": {
+    "latitude": 12.8703,
+    "longitude": 74.8806
+  }
+},{
+  "companyId": "cid5",
+  "companyName": "Titan",
+  "companyAddress": "16, Watch makers street, Tech park, Kochi, Kerala",
+  "coordinates": {
+    "latitude": 9.9667,
+    "longitude": 76.2833
+  }
+},{
+  "companyId": "cid6",
+  "companyName": "Tesla",
+  "companyAddress": "16, Old road, IT park, Coimbatore",
+  "coordinates": {
+    "latitude": 11,
+    "longitude": 76.9667
+  }
+},{
+  "companyId": "cid7",
+  "companyName": "Benz",
+  "companyAddress": "16, Civil road, North street, Srinagar",
+  "coordinates": {
+    "latitude": 34.0911,
+    "longitude": 74.8061
+  }
+},{
+  "companyId": "cid8",
+  "companyName": "POCO",
+  "companyAddress": "16, Mobile maker park, Chandigarh",
+  "coordinates": {
+    "latitude": 30.7353,
+    "longitude": 76.7911
+  }
+},{
+  "companyId": "cid9",
+  "companyName": "HP",
+  "companyAddress": "16, Fixed banner street, Tirupati",
+  "coordinates": {
+    "latitude": 13.65,
+    "longitude": 79.42
+  }
+},{
+  "companyId": "cid10",
+  "companyName": "Ford",
+  "companyAddress": "16, ECR coast road, Chennai",
+  "coordinates": {
+    "latitude": 13.0825,
+    "longitude": 80.275
+  }
+},{
+  "companyId": "cid12",
+  "companyName": "Effy",
+  "companyAddress": "16 floor, North street, Salem",
+  "coordinates": {
+    "latitude": 11.65,
+    "longitude": 78.1667
+  }
+},{
+  "companyId": "cid13",
+  "companyName": "Toughwork",
+  "companyAddress": "43 , East route street, Coimbatore",
+  "coordinates": {
+    "latitude": 11,
+    "longitude": 76.9667
+  }
+},{
+  "companyId": "cid15",
+  "companyName": "Asus",
+  "companyAddress": "21 floor, Temple street, Delhi",
+  "coordinates": {
+    "latitude": 28.66,
+    "longitude": 77.23
+  }
+},{
+  "companyId": "cid16",
+  "companyName": "Jaguar",
+  "companyAddress": "67 dt, Highway road, Delhi",
+  "coordinates": {
+    "latitude": 28.66,
+    "longitude": 77.23
+  }
+}]

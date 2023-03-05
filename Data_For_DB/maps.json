@@ -1,0 +1,439 @@
+[{
+  "address": "tamil nadu",
+  "coordinates": {
+    "latitude": 11.059821,
+    "longitude": 78.387451
+  }
+},{
+  "address": "telangana",
+  "coordinates": {
+    "latitude": 17.123184,
+    "longitude": 79.208824
+  }
+},{
+  "address": "madhya pradesh",
+  "coordinates": {
+    "latitude": 23.473324,
+    "longitude": 77.947998
+  }
+},{
+  "address": "haryana",
+  "coordinates": {
+    "latitude": 29.238478,
+    "longitude": 76.431885
+  }
+},{
+  "address": "chhattisgarh",
+  "coordinates": {
+    "latitude": 21.295132,
+    "longitude": 81.828232
+  }
+},{
+  "address": "bhitarwar",
+  "coordinates": {
+    "latitude": 25.794033,
+    "longitude": 78.116531
+  }
+},{
+  "address": "maharashtra",
+  "coordinates": {
+    "latitude": 19.601194,
+    "longitude": 75.552979
+  }
+},{
+  "address": "tripura",
+  "coordinates": {
+    "latitude": 23.745127,
+    "longitude": 91.746826
+  }
+},{
+  "address": "chandoor",
+  "coordinates": {
+    "latitude": 17.874857,
+    "longitude": 78.100815
+  }
+},{
+  "address": "karnataka",
+  "coordinates": {
+    "latitude": 15.317277,
+    "longitude": 75.71389
+  }
+},{
+  "address": "kerala",
+  "coordinates": {
+    "latitude": 10.850516,
+    "longitude": 76.27108
+  }
+},{
+  "address": "uttar pradesh",
+  "coordinates": {
+    "latitude": 28.207609,
+    "longitude": 79.82666
+  }
+},{
+  "address": "assam",
+  "coordinates": {
+    "latitude": 26.244156,
+    "longitude": 92.537842
+  }
+},{
+  "address": "west bengal",
+  "coordinates": {
+    "latitude": 22.978624,
+    "longitude": 87.747803
+  }
+},{
+  "address": "gujarat",
+  "coordinates": {
+    "latitude": 22.309425,
+    "longitude": 72.13623
+  }
+},{
+  "address": "odisha",
+  "coordinates": {
+    "latitude": 20.94092,
+    "longitude": 84.803467
+  }
+},{
+  "address": "rajasthan",
+  "coordinates": {
+    "latitude": 27.391277,
+    "longitude": 73.432617
+  }
+},{
+  "address": "himachal pradesh",
+  "coordinates": {
+    "latitude": 32.084206,
+    "longitude": 77.571167
+  }
+},{
+  "address": "india",
+  "coordinates": {
+    "latitude": 19.66328,
+    "longitude": 75.300293
+  }
+},{
+  "address": "delhi",
+  "coordinates": {
+    "latitude": 28.66,
+    "longitude": 77.23
+  }
+},{
+  "address": "mumbai",
+  "coordinates": {
+    "latitude": 18.9667,
+    "longitude": 72.8333
+  }
+},{
+  "address": "banglore",
+  "coordinates": {
+    "latitude": 12.9699,
+    "longitude": 77.598
+  }
+},{
+  "address": "chennai",
+  "coordinates": {
+    "latitude": 13.0825,
+    "longitude": 80.275
+  }
+},{
+  "address": "hyderabad",
+  "coordinates": {
+    "latitude": 17.3667,
+    "longitude": 78.4667
+  }
+},{
+  "address": "pune",
+  "coordinates": {
+    "latitude": 18.5196,
+    "longitude": 73.8553
+  }
+},{
+  "address": "ahmedabad",
+  "coordinates": {
+    "latitude": 23.03,
+    "longitude": 72.58
+  }
+},{
+  "address": "surat",
+  "coordinates": {
+    "latitude": 21.17,
+    "longitude": 72.83
+  }
+},{
+  "address": "lucknow",
+  "coordinates": {
+    "latitude": 26.847,
+    "longitude": 26.847
+  }
+},{
+  "address": "jaipur",
+  "coordinates": {
+    "latitude": 26.9167,
+    "longitude": 75.8667
+  }
+},{
+  "address": "cawnpore",
+  "coordinates": {
+    "latitude": 26.4725,
+    "longitude": 80.3311
+  }
+},{
+  "address": "mizapur",
+  "coordinates": {
+    "latitude": 25.15,
+    "longitude": 82.58
+  }
+},{
+  "address": "nagpur",
+  "coordinates": {
+    "latitude": 21.1539,
+    "longitude": 79.0831
+  }
+},{
+  "address": "ghaziabad",
+  "coordinates": {
+    "latitude": 28.6667,
+    "longitude": 77.4167
+  }
+},{
+  "address": "indore",
+  "coordinates": {
+    "latitude": 22.7206,
+    "longitude": 75.8472
+  }
+},{
+  "address": "vishakhapatnam",
+  "coordinates": {
+    "latitude": 17.7333,
+    "longitude": 83.3167
+  }
+},{
+  "address": "agra",
+  "coordinates": {
+    "latitude": 27.18,
+    "longitude": 78.02
+  }
+},{
+  "address": "madurai",
+  "coordinates": {
+    "latitude": 9.9197,
+    "longitude": 78.1194
+  }
+},{
+  "address": "jamshedpur",
+  "coordinates": {
+    "latitude": 22.8,
+    "longitude": 86.1833
+  }
+},{
+  "address": "meerut",
+  "coordinates": {
+    "latitude": 28.99,
+    "longitude": 77.7
+  }
+},{
+  "address": "allahabad",
+  "coordinates": {
+    "latitude": 25.455,
+    "longitude": 81.84
+  }
+},{
+  "address": "varanasi",
+  "coordinates": {
+    "latitude": 25.3189,
+    "longitude": 83.0128
+  }
+},{
+  "address": "srinagar",
+  "coordinates": {
+    "latitude": 34.0911,
+    "longitude": 74.8061
+  }
+},{
+  "address": "gwalior",
+  "coordinates": {
+    "latitude": 26.215,
+    "longitude": 78.1931
+  }
+},{
+  "address": "chandigarh",
+  "coordinates": {
+    "latitude": 30.7353,
+    "longitude": 76.7911
+  }
+},{
+  "address": "mysore",
+  "coordinates": {
+    "latitude": 12.3086,
+    "longitude": 76.6531
+  }
+},{
+  "address": "coimbatore",
+  "coordinates": {
+    "latitude": 11,
+    "longitude": 76.9667
+  }
+},{
+  "address": "thiruvananthapuram",
+  "coordinates": {
+    "latitude": 8.5,
+    "longitude": 76.8997
+  }
+},{
+  "address": "salem",
+  "coordinates": {
+    "latitude": 11.65,
+    "longitude": 78.1667
+  }
+},{
+  "address": "kochi",
+  "coordinates": {
+    "latitude": 9.9667,
+    "longitude": 76.2833
+  }
+},{
+  "address": "manglore",
+  "coordinates": {
+    "latitude": 12.8703,
+    "longitude": 74.8806
+  }
+},{
+  "address": "nellore",
+  "coordinates": {
+    "latitude": 14.4333,
+    "longitude": 79.9667
+  }
+},{
+  "address": "tirupati",
+  "coordinates": {
+    "latitude": 13.65,
+    "longitude": 79.42
+  }
+},{
+  "address": "afghanistan",
+  "coordinates": {
+    "latitude": 34.98300013,
+    "longitude": 63.13329964
+  }
+},{
+  "address": "argentina",
+  "coordinates": {
+    "latitude": -51.65003986,
+    "longitude": -72.30001612
+  }
+},{
+  "address": "australia",
+  "coordinates": {
+    "latitude": -33.42004148,
+    "longitude": 151.3000048
+  }
+},{
+  "address": "bangladesh",
+  "coordinates": {
+    "latitude": 24.24997845,
+    "longitude": 89.92003048
+  }
+},{
+  "address": "brazil",
+  "coordinates": {
+    "latitude": -5.809995505,
+    "longitude": -46.14998438
+  }
+},{
+  "address": "canada",
+  "coordinates": {
+    "latitude": 50.15002545,
+    "longitude": -96.88332178
+  }
+},{
+  "address": "china",
+  "coordinates": {
+    "latitude": 39.83003522,
+    "longitude": 97.72999304
+  }
+},{
+  "address": "cuba",
+  "coordinates": {
+    "latitude": 21.83999636,
+    "longitude": 78.76194727
+  }
+},{
+  "address": "denmark",
+  "coordinates": {
+    "latitude": 55.70900103,
+    "longitude": 9.534996498
+  }
+},{
+  "address": "egypt",
+  "coordinates": {
+    "latitude": 30.59199913,
+    "longitude": 30.89999749
+  }
+},{
+  "address": "france",
+  "coordinates": {
+    "latitude": 45.89997479,
+    "longitude": 6.116670287
+  }
+},{
+  "address": "georgia",
+  "coordinates": {
+    "latitude": 42.24999086,
+    "longitude": 42.72999101
+  }
+},{
+  "address": "germany",
+  "coordinates": {
+    "latitude": 49.98247246,
+    "longitude": 8.273219156
+  }
+},{
+  "address": "greenland",
+  "coordinates": {
+    "latitude": 68.81927014,
+    "longitude": -51.17851854
+  }
+},{
+  "address": "hong kong",
+  "coordinates": {
+    "latitude": 22.3049809,
+    "longitude": 114.1850093
+  }
+},{
+  "address": "iceland",
+  "coordinates": {
+    "latitude": 64.56950277,
+    "longitude": -21.86232219
+  }
+},{
+  "address": "indonesia",
+  "coordinates": {
+    "latitude": 3.620359109,
+    "longitude": 98.50007524
+  }
+},{
+  "address": "iran",
+  "coordinates": {
+    "latitude": 30.65900412,
+    "longitude": 51.59400361
+  }
+},{
+  "address": "iraq",
+  "coordinates": {
+    "latitude": 36.86670013,
+    "longitude": 43.00000263
+  }
+},{
+  "address": "italy",
+  "coordinates": {
+    "latitude": 40.64200213,
+    "longitude": 15.7989965
+  }
+},{
+  "address": "japan",
+  "coordinates": {
+    "latitude": 34.67202964,
+    "longitude": 133.9170865
+  }
+}]

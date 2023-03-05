@@ -1,0 +1,145 @@
+[{
+  "userId": "uid1",
+  "firstName": "Tony",
+  "lastName": "Stark",
+  "email": "tonyIronman123@gmail.com",
+  "designation": "Fighter",
+  "dob": {
+    "$date": {
+      "$numberLong": "338841000000"
+    }
+  },
+  "active": true
+},{
+  "userId": "uid2",
+  "firstName": "Peter",
+  "lastName": "Parker",
+  "email": "iamPeter01@gmail.com",
+  "designation": "Spider Man",
+  "dob": {
+    "$date": {
+      "$numberLong": "812140200000"
+    }
+  },
+  "active": false
+},{
+  "userId": "uid4",
+  "firstName": "Brock",
+  "lastName": "Lesnar",
+  "email": "bigBrock23@yahoo.com",
+  "designation": "Boxer",
+  "dob": {
+    "$date": {
+      "$numberLong": "492892200000"
+    }
+  },
+  "active": true
+},{
+  "userId": "uid6",
+  "firstName": "Vijay",
+  "lastName": "Thalapathy",
+  "email": "newmailId@gmail.com",
+  "designation": "Actor",
+  "dob": {
+    "$date": {
+      "$numberLong": "171916200000"
+    }
+  },
+  "active": true
+},{
+  "userId": "uid7",
+  "firstName": "Black",
+  "lastName": "Adam",
+  "email": "adamhereHi@gmail.com",
+  "designation": "Fighter",
+  "dob": {
+    "$date": {
+      "$numberLong": "-2194492870000"
+    }
+  },
+  "active": true
+},{
+  "userId": "uid8",
+  "firstName": "John",
+  "lastName": "Cena",
+  "email": "hiJohn1@gmail.com",
+  "designation": "Wrestler",
+  "dob": {
+    "$date": {
+      "$numberLong": "338063400000"
+    }
+  },
+  "active": true
+},{
+  "userId": "uid9",
+  "firstName": "Dhoni",
+  "lastName": "M S",
+  "email": "captainDhoni@gmail.com",
+  "designation": "Cricketer",
+  "dob": {
+    "$date": {
+      "$numberLong": "282787200000"
+    }
+  },
+  "active": true
+},{
+  "userId": "uid12",
+  "firstName": "Virat",
+  "lastName": "Kohli",
+  "email": "kohliHere1@yahoo.com",
+  "designation": "Cricketer",
+  "dob": {
+    "$date": {
+      "$numberLong": "653875200000"
+    }
+  },
+  "active": true
+},{
+  "userId": "uid13",
+  "firstName": "Sheamus",
+  "lastName": "Warrior",
+  "email": "itsSheamus1@wwe.com",
+  "designation": "Fighter",
+  "dob": {
+    "$date": {
+      "$numberLong": "338841000000"
+    }
+  },
+  "active": true
+},{
+  "userId": "uid14",
+  "firstName": "Kofi",
+  "lastName": "Kingston",
+  "email": "kofiDev1@yahoo.com",
+  "designation": "Developer",
+  "dob": {
+    "$date": {
+      "$numberLong": "933013800000"
+    }
+  },
+  "active": true
+},{
+  "userId": "uid15",
+  "firstName": "Dennis",
+  "lastName": "Rock",
+  "email": "dennisHere@gmail.com",
+  "designation": "wrestler",
+  "dob": {
+    "$date": {
+      "$numberLong": "906336000000"
+    }
+  },
+  "active": true
+},{
+  "userId": "uid16",
+  "firstName": "Captain Jack",
+  "lastName": "Sparrow",
+  "email": "jacksparrowCap@gmail.com",
+  "designation": "pirate",
+  "dob": {
+    "$date": {
+      "$numberLong": "338841000000"
+    }
+  },
+  "active": true
+}]

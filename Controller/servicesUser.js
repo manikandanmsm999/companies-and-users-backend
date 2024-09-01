@@ -158,7 +158,7 @@ exports.updateUser=async(req,res,next)=>{
             }
             if(validator.nullAndUndefinedCheck(email)){
                 if(validator.validateEmail(email)){
-                    const emailDuplicateCheker=await userModel.find({email:email});
+                    const emailDuplicateCheker=await userModel.find({email:email, userId: { $ne: userId }});
                     if(emailDuplicateCheker.length<=0){
                         user.email=email;
                     }
